@@ -1,8 +1,5 @@
 package net.mightypork.rpw.tasks;
 
-import java.io.File;
-import java.io.IOException;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config.FilePath;
 import net.mightypork.rpw.gui.helpers.FileChooser;
@@ -10,6 +7,9 @@ import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.tree.filesystem.FileFsTreeNode;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.File;
+import java.io.IOException;
 
 
 public class TaskImportCustomSoundReplacement {

@@ -10,21 +10,15 @@ import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.struct.LangEntry;
 import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.utils.files.OsUtils;
-import net.mightypork.rpw.utils.logging.Log;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.attribute.FileAttribute;
 import java.util.List;
 
 public class DialogNewLanguage extends RpwDialog {

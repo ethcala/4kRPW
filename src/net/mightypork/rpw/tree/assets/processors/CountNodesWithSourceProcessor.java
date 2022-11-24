@@ -1,12 +1,12 @@
 package net.mightypork.rpw.tree.assets.processors;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import net.mightypork.rpw.tree.assets.tree.AssetTreeGroup;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeLeaf;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeNode;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeProcessor;
+
+import java.util.HashSet;
+import java.util.Set;
 
 
 public class CountNodesWithSourceProcessor implements AssetTreeProcessor {

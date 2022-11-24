@@ -1,5 +1,10 @@
 package net.mightypork.rpw.utils.files;
 
+import net.mightypork.rpw.App;
+import net.mightypork.rpw.Config;
+import net.mightypork.rpw.gui.windows.messages.Alerts;
+import net.mightypork.rpw.utils.logging.Log;
+
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
@@ -8,12 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import net.mightypork.rpw.App;
-import net.mightypork.rpw.Config;
-import net.mightypork.rpw.gui.windows.messages.Alerts;
-import net.mightypork.rpw.utils.files.OsUtils.EnumOS;
-import net.mightypork.rpw.utils.logging.Log;
 
 
 public class DesktopApi {

@@ -1,10 +1,10 @@
 package net.mightypork.rpw.tree.assets;
 
-import java.io.File;
-
 import net.mightypork.rpw.gui.helpers.FileChooser;
 import net.mightypork.rpw.gui.helpers.FileChooser.FileChooserFilter;
 import net.mightypork.rpw.utils.files.FileUtils;
+
+import java.io.File;
 
 
 /**

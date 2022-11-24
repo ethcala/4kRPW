@@ -1,21 +1,13 @@
 package net.mightypork.rpw.tasks;
 
-import java.awt.EventQueue;
-import java.io.File;
-import java.io.IOException;
-import java.util.HashMap;
-
-import javax.swing.JDialog;
-import javax.swing.JOptionPane;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.Flags;
 import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.gui.Gui;
-import net.mightypork.rpw.gui.windows.WindowSplash;
 import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.gui.windows.WindowMain;
+import net.mightypork.rpw.gui.windows.WindowSplash;
 import net.mightypork.rpw.gui.windows.dialogs.*;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.gui.windows.messages.DialogChangelog;
@@ -38,6 +30,12 @@ import net.mightypork.rpw.utils.files.DesktopApi;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.files.OsUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
 
 
 /**

@@ -1,27 +1,5 @@
 package net.mightypork.rpw.tasks.sequences;
 
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.ScrollPaneConstants;
-
-import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.Flags;
 import net.mightypork.rpw.Paths;
@@ -36,14 +14,21 @@ import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.tree.assets.EAsset;
 import net.mightypork.rpw.utils.Utils;
-import net.mightypork.rpw.utils.files.FileDirFilter;
-import net.mightypork.rpw.utils.files.FileUtils;
-import net.mightypork.rpw.utils.files.OsUtils;
-import net.mightypork.rpw.utils.files.SimpleConfig;
-import net.mightypork.rpw.utils.files.ZipUtils;
+import net.mightypork.rpw.utils.files.*;
 import net.mightypork.rpw.utils.logging.Log;
 import net.mightypork.rpw.utils.validation.FileSuffixFilter;
 import net.mightypork.rpw.utils.validation.StringFilter;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+import java.util.*;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
 
 /**

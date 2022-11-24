@@ -1,15 +1,12 @@
 package net.mightypork.rpw.gui.widgets;
 
-import java.awt.Color;
-import java.awt.Component;
-
-import javax.swing.table.TableCellRenderer;
-
 import net.mightypork.rpw.Const;
 import net.mightypork.rpw.gui.Icons;
-
 import org.jdesktop.swingx.JXTreeTable;
 import org.jdesktop.swingx.treetable.TreeTableModel;
+
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
 
 
 public class HackedJXTreeTable extends JXTreeTable {

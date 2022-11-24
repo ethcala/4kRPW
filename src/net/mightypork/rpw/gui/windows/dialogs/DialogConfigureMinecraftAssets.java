@@ -11,20 +11,14 @@ import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.project.Projects;
-import net.mightypork.rpw.struct.LangEntry;
 import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.files.OsUtils;
-import net.mightypork.rpw.utils.logging.Log;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class DialogConfigureMinecraftAssets extends RpwDialog {
 

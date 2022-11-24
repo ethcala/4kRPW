@@ -1,12 +1,11 @@
 package net.mightypork.rpw.tree.filesystem;
 
-import java.io.File;
-import java.util.Enumeration;
-
-import javax.swing.tree.TreeNode;
-
 import net.mightypork.rpw.tree.assets.EAsset;
 import net.mightypork.rpw.utils.files.FileUtils;
+
+import javax.swing.tree.TreeNode;
+import java.io.File;
+import java.util.Enumeration;
 
 
 /**

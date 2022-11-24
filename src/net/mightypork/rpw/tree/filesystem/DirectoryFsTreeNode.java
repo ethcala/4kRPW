@@ -1,15 +1,14 @@
 package net.mightypork.rpw.tree.filesystem;
 
+import net.mightypork.rpw.utils.files.FileUtils;
+
+import javax.swing.tree.TreeNode;
 import java.io.File;
 import java.io.FileFilter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.List;
-
-import javax.swing.tree.TreeNode;
-
-import net.mightypork.rpw.utils.files.FileUtils;
 
 
 /**

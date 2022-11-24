@@ -1,26 +1,26 @@
 package com.pixbits.rpw.stitcher;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import net.mightypork.rpw.gui.windows.messages.Alerts;
+import net.mightypork.rpw.library.MagicSources;
+import net.mightypork.rpw.library.Sources;
+import net.mightypork.rpw.library.VanillaPack;
+import net.mightypork.rpw.project.Project;
+import net.mightypork.rpw.tree.assets.AssetEntry;
+import net.mightypork.rpw.utils.files.FileUtils;
+import net.mightypork.rpw.utils.logging.Log;
+
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.math.BigInteger;
 import java.nio.ByteBuffer;
-import java.util.*;
-import java.awt.Point;
-import java.awt.RenderingHints;
-import java.awt.image.*;
-import java.awt.Graphics2D;
-import java.security.*;
-
-import javax.imageio.ImageIO;
-
-import com.google.gson.*;
-
-import net.mightypork.rpw.gui.windows.messages.Alerts;
-import net.mightypork.rpw.library.Sources;
-import net.mightypork.rpw.project.Project;
-import net.mightypork.rpw.library.*;
-import net.mightypork.rpw.tree.assets.*;
-import net.mightypork.rpw.utils.files.FileUtils;
-import net.mightypork.rpw.utils.logging.Log;
+import java.security.MessageDigest;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
 
 public class Tasks

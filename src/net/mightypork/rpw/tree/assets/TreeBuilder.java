@@ -1,22 +1,18 @@
 package net.mightypork.rpw.tree.assets;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.library.MagicSources;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.project.NodeSourceProvider;
-import net.mightypork.rpw.tree.assets.groups.AssetGrouper;
-import net.mightypork.rpw.tree.assets.groups.AssetGrouperFancy;
-import net.mightypork.rpw.tree.assets.groups.AssetGrouperRaw;
-import net.mightypork.rpw.tree.assets.groups.GroupFilter;
-import net.mightypork.rpw.tree.assets.groups.GroupInfo;
+import net.mightypork.rpw.tree.assets.groups.*;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeGroup;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeLeaf;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class TreeBuilder {

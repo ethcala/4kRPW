@@ -1,17 +1,15 @@
 package net.mightypork.rpw.gui.helpers.trees;
 
-import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.tree.TreePath;
-
 import net.mightypork.rpw.gui.helpers.PopupTriggerListener;
 import net.mightypork.rpw.gui.windows.popups.PopupSelectedNodes;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeNode;
 import net.mightypork.rpw.utils.logging.Log;
-
 import org.jdesktop.swingx.JXTreeTable;
+
+import javax.swing.tree.TreePath;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class AssetTableClickListener extends PopupTriggerListener {

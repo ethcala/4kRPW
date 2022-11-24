@@ -1,21 +1,13 @@
 package net.mightypork.rpw.gui.widgets;
 
-import java.awt.Component;
-import java.awt.Dimension;
+import net.mightypork.rpw.utils.AlphanumComparator;
+import org.jdesktop.swingx.JXList;
+
+import javax.swing.*;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.DefaultListCellRenderer;
-import javax.swing.DefaultListModel;
-import javax.swing.JList;
-import javax.swing.JScrollPane;
-import javax.swing.ListSelectionModel;
-
-import net.mightypork.rpw.utils.AlphanumComparator;
-
-import org.jdesktop.swingx.JXList;
 
 
 public class SimpleStringList extends JScrollPane {

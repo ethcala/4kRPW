@@ -1,6 +1,6 @@
 package com.pixbits.rpw.stitcher;
 
-import java.util.*;
+import java.util.ArrayList;
 
 
 public class StitchJson

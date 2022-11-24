@@ -1,15 +1,13 @@
 package net.mightypork.rpw.utils.files;
 
-import java.io.File;
-import java.util.List;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.Flags;
 import net.mightypork.rpw.Paths;
-import net.mightypork.rpw.project.Project;
-import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.File;
+import java.util.List;
 
 
 public class OsUtils {

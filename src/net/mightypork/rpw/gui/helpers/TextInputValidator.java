@@ -1,10 +1,10 @@
 package net.mightypork.rpw.gui.helpers;
 
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-
 import net.mightypork.rpw.utils.Utils;
 import net.mightypork.rpw.utils.validation.CharValidator;
+
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 
 
 public class TextInputValidator extends KeyAdapter {

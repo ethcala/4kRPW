@@ -1,16 +1,15 @@
 package net.mightypork.rpw.tree.assets.tree;
 
-import java.util.Enumeration;
-import java.util.List;
-
-import javax.swing.tree.TreeNode;
-
 import net.mightypork.rpw.library.MagicSources;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.project.Project;
 import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.tree.assets.EAsset;
+
+import javax.swing.tree.TreeNode;
+import java.util.Enumeration;
+import java.util.List;
 
 
 public class AssetTreeLeaf extends AssetTreeNode {

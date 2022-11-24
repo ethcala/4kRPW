@@ -1,14 +1,14 @@
 package net.mightypork.rpw.tasks;
 
-import java.io.FileNotFoundException;
-import java.net.URL;
-import java.util.Scanner;
-
 import net.mightypork.rpw.Const;
 import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.gui.Gui;
 import net.mightypork.rpw.gui.windows.messages.DialogUpdateNotify;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.FileNotFoundException;
+import java.net.URL;
+import java.util.Scanner;
 
 
 public class TaskCheckUpdate {

@@ -1,11 +1,10 @@
 package net.mightypork.rpw.tree.assets.tree;
 
+import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Enumeration;
 import java.util.List;
-
-import javax.swing.tree.TreeNode;
 
 
 public class AssetTreeGroup extends AssetTreeNode {

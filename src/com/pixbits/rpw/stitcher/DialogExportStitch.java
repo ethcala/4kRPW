@@ -1,13 +1,5 @@
 package com.pixbits.rpw.stitcher;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.util.*;
-
-import javax.swing.*;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config.FilePath;
 import net.mightypork.rpw.gui.Gui;
@@ -19,9 +11,17 @@ import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.library.VanillaPack;
-import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.project.Project;
+import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.assets.AssetEntry;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collection;
 
 
 public class DialogExportStitch extends RpwDialog

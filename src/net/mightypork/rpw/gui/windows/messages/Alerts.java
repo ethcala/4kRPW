@@ -1,14 +1,13 @@
 package net.mightypork.rpw.gui.windows.messages;
 
-import java.awt.Component;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import javax.swing.JOptionPane;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.gui.Icons;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class Alerts {

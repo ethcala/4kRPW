@@ -1,17 +1,16 @@
 package net.mightypork.rpw.gui.helpers.trees;
 
-import java.awt.event.MouseEvent;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.JTree;
-import javax.swing.tree.TreePath;
-
 import net.mightypork.rpw.gui.helpers.PopupTriggerListener;
 import net.mightypork.rpw.gui.windows.dialogs.DialogSoundWizard;
 import net.mightypork.rpw.gui.windows.popups.PopupSoundFsTreeNode;
 import net.mightypork.rpw.tree.filesystem.AbstractFsTreeNode;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import javax.swing.tree.TreePath;
+import java.awt.event.MouseEvent;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class SoundFileTreeClickListener extends PopupTriggerListener {

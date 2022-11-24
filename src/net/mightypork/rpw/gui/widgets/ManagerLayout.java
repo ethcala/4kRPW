@@ -1,12 +1,9 @@
 package net.mightypork.rpw.gui.widgets;
 
-import java.awt.Component;
-import java.awt.GridLayout;
-
-import javax.swing.JButton;
-import javax.swing.JPanel;
-
 import net.mightypork.rpw.gui.Gui;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 public class ManagerLayout extends HBox {

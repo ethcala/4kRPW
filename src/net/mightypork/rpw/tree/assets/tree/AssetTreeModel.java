@@ -1,9 +1,9 @@
 package net.mightypork.rpw.tree.assets.tree;
 
+import org.jdesktop.swingx.treetable.AbstractTreeTableModel;
+
 import javax.swing.tree.TreeNode;
 import javax.swing.tree.TreePath;
-
-import org.jdesktop.swingx.treetable.AbstractTreeTableModel;
 
 
 public class AssetTreeModel extends AbstractTreeTableModel {

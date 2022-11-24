@@ -1,10 +1,10 @@
 package net.mightypork.rpw.tree.assets.groups;
 
-import java.util.ArrayList;
-
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.util.ArrayList;
 
 
 public abstract class AssetGrouper {

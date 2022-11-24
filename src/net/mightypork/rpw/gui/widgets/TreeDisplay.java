@@ -1,17 +1,5 @@
 package net.mightypork.rpw.gui.widgets;
 
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
-import java.util.Enumeration;
-
-import javax.swing.JTree;
-import javax.swing.event.TreeSelectionEvent;
-import javax.swing.event.TreeSelectionListener;
-import javax.swing.table.JTableHeader;
-import javax.swing.table.TableColumn;
-import javax.swing.tree.TreeNode;
-import javax.swing.tree.TreePath;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.gui.Icons;
@@ -25,9 +13,19 @@ import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.TreeIconProvider;
 import net.mightypork.rpw.tree.assets.TreeBuilder;
 import net.mightypork.rpw.tree.assets.tree.*;
-
 import org.jdesktop.swingx.JXTreeTable;
 import org.jdesktop.swingx.renderer.DefaultTreeRenderer;
+
+import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.table.JTableHeader;
+import javax.swing.table.TableColumn;
+import javax.swing.tree.TreeNode;
+import javax.swing.tree.TreePath;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionListener;
+import java.util.Enumeration;
 
 
 public class TreeDisplay {
@@ -232,7 +230,7 @@ public class TreeDisplay {
         final TreeNode node = (TreeNode) parent.getLastPathComponent();
         if (node == null) return;
         if (node.getChildCount() > 0) {
-            for (final Enumeration<TreeNode> e = node.children(); e.hasMoreElements(); ) {
+            for (final Enumeration<? extends TreeNode> e = node.children(); e.hasMoreElements(); ) {
                 final TreeNode treeNode = e.nextElement();
                 final TreePath path = parent.pathByAddingChild(treeNode);
                 expandAll(tree, path, expand);

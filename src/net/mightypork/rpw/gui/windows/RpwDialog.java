@@ -1,23 +1,18 @@
 package net.mightypork.rpw.gui.windows;
 
-import java.awt.Dimension;
-import java.awt.Frame;
+import net.mightypork.rpw.App;
+import net.mightypork.rpw.gui.Gui;
+import net.mightypork.rpw.gui.helpers.WindowCloseListener;
+import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JDialog;
-import javax.swing.KeyStroke;
-
-import net.mightypork.rpw.App;
-import net.mightypork.rpw.gui.Gui;
-import net.mightypork.rpw.gui.helpers.WindowCloseListener;
-import net.mightypork.rpw.utils.logging.Log;
 
 
 public abstract class RpwDialog extends JDialog {

@@ -1,17 +1,13 @@
 package net.mightypork.rpw.gui.helpers.trees;
 
-import java.awt.Color;
-import java.awt.Component;
+import net.mightypork.rpw.library.MagicSources;
+import net.mightypork.rpw.library.Sources;
 
-import javax.swing.JLabel;
-import javax.swing.JTable;
-import javax.swing.UIManager;
+import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.TableCellRenderer;
-
-import net.mightypork.rpw.library.MagicSources;
-import net.mightypork.rpw.library.Sources;
+import java.awt.*;
 
 
 public class MagicAwareTableCellStringRenderer extends JLabel implements TableCellRenderer {

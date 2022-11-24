@@ -1,11 +1,11 @@
 package net.mightypork.rpw.tree.assets.groups;
 
+import net.mightypork.rpw.library.Sources;
+import net.mightypork.rpw.utils.Utils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-import net.mightypork.rpw.library.Sources;
-import net.mightypork.rpw.utils.Utils;
 
 
 public class AssetGrouperRaw extends AssetGrouper {

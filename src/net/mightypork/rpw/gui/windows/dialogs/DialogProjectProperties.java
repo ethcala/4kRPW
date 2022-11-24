@@ -1,19 +1,5 @@
 package net.mightypork.rpw.gui.windows.dialogs;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-
-import javax.swing.Icon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import javax.swing.SwingConstants;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config.FilePath;
 import net.mightypork.rpw.gui.Gui;
@@ -27,7 +13,13 @@ import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.utils.files.DesktopApi;
 import net.mightypork.rpw.utils.files.FileUtils;
-import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
 
 
 public class DialogProjectProperties extends RpwDialog {

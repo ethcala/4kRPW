@@ -1,21 +1,11 @@
 package net.mightypork.rpw.gui.windows.messages;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Frame;
-import java.awt.Insets;
-
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.ScrollPaneConstants;
-
 import net.mightypork.rpw.gui.Gui;
 import net.mightypork.rpw.gui.widgets.VBox;
 import net.mightypork.rpw.gui.windows.RpwDialog;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 public abstract class DialogTerminalBase extends RpwDialog {

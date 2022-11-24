@@ -1,16 +1,5 @@
 package com.pixbits.rpw.stitcher;
 
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Set;
-import java.util.HashSet;
-
-import javax.swing.*;
-
 import com.google.gson.GsonBuilder;
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config.FilePath;
@@ -23,11 +12,21 @@ import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.library.VanillaPack;
-import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.project.Project;
+import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 
 public class DialogImportStitch extends RpwDialog {

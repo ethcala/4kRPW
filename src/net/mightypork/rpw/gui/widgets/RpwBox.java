@@ -1,10 +1,8 @@
 package net.mightypork.rpw.gui.widgets;
 
-import javax.swing.BorderFactory;
-import javax.swing.Box;
-import javax.swing.JSeparator;
-
 import net.mightypork.rpw.gui.Gui;
+
+import javax.swing.*;
 
 
 public abstract class RpwBox extends Box {

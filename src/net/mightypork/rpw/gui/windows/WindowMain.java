@@ -1,14 +1,5 @@
 package net.mightypork.rpw.gui.windows;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Toolkit;
-import java.awt.event.WindowEvent;
-
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.WindowConstants;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.gui.Gui;
@@ -18,12 +9,15 @@ import net.mightypork.rpw.gui.widgets.MenuMain;
 import net.mightypork.rpw.gui.widgets.SidePanel;
 import net.mightypork.rpw.gui.widgets.TreeDisplay;
 import net.mightypork.rpw.tasks.Tasks;
-
 import net.mightypork.rpw.utils.logging.Log;
 import org.jdesktop.swingx.JXFrame;
 import org.jdesktop.swingx.JXLabel;
 import org.jdesktop.swingx.JXStatusBar;
 import org.jdesktop.swingx.plaf.basic.BasicStatusBarUI;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.WindowEvent;
 
 
 public class WindowMain {

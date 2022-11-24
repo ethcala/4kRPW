@@ -1,12 +1,11 @@
 package net.mightypork.rpw.tree.filesystem;
 
-import java.io.File;
-import java.util.Enumeration;
-
-import javax.swing.tree.TreeNode;
-
 import net.mightypork.rpw.tree.IFileTreeNode;
 import net.mightypork.rpw.utils.AlphanumComparator;
+
+import javax.swing.tree.TreeNode;
+import java.io.File;
+import java.util.Enumeration;
 
 
 /**

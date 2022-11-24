@@ -1,9 +1,5 @@
 package net.mightypork.rpw.tasks;
 
-import java.awt.Dialog;
-import java.io.File;
-import java.io.IOException;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.gui.windows.dialogs.DialogEditMeta;
@@ -19,6 +15,10 @@ import net.mightypork.rpw.tree.assets.tree.AssetTreeProcessor;
 import net.mightypork.rpw.utils.files.DesktopApi;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 
 
 public class TaskModifyAsset {

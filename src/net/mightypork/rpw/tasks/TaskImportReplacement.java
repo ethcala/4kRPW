@@ -1,9 +1,5 @@
 package net.mightypork.rpw.tasks;
 
-import java.awt.EventQueue;
-import java.io.File;
-import java.io.IOException;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config.FilePath;
 import net.mightypork.rpw.gui.helpers.FileChooser;
@@ -12,6 +8,10 @@ import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
 
 
 public class TaskImportReplacement {

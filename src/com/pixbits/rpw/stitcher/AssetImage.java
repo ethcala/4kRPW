@@ -1,14 +1,12 @@
 package com.pixbits.rpw.stitcher;
 
-import java.io.File;
-import java.io.IOException;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
-import java.awt.Graphics2D;
+import net.mightypork.rpw.tree.assets.AssetEntry;
 
 import javax.imageio.ImageIO;
-
-import net.mightypork.rpw.tree.assets.AssetEntry;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 
 
 public class AssetImage implements Comparable<AssetImage>

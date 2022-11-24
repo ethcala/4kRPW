@@ -1,18 +1,5 @@
 package net.mightypork.rpw.gui.windows.dialogs;
 
-import java.awt.Dimension;
-import java.awt.Font;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JScrollPane;
-import javax.swing.ScrollPaneConstants;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.gui.Gui;
 import net.mightypork.rpw.gui.Icons;
@@ -23,8 +10,14 @@ import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tree.assets.TreeBuilder;
 import net.mightypork.rpw.tree.assets.processors.GetProjectSummaryProcessor;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeNode;
-
 import org.jdesktop.swingx.JXTable;
+
+import javax.swing.*;
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 
 public class DialogProjectSummary extends RpwDialog {

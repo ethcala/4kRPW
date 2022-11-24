@@ -1,8 +1,10 @@
 package com.pixbits.rpw.stitcher;
 
-import java.awt.Rectangle;
-import java.awt.Point;
-import java.util.*;
+import java.awt.*;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 
 public class AssetLayout implements Iterable<AssetImage>

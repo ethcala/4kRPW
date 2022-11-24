@@ -1,9 +1,5 @@
 package net.mightypork.rpw.tasks.sequences;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Collection;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.library.MagicSources;
@@ -14,6 +10,10 @@ import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.utils.files.DirectoryTreeDifferenceFinder;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Collection;
 
 
 public class SequenceDeleteIdenticalToVanilla extends AbstractMonitoredSequence {

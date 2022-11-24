@@ -1,18 +1,5 @@
 package net.mightypork.rpw.gui;
 
-import java.awt.Dimension;
-import java.awt.Image;
-import java.awt.RenderingHints;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
-import java.util.Collections;
-import java.util.Map;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-
 import net.coobird.thumbnailator.ThumbnailParameter;
 import net.coobird.thumbnailator.Thumbnailator;
 import net.coobird.thumbnailator.geometry.AbsoluteSize;
@@ -29,6 +16,16 @@ import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.utils.Utils;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.util.Collections;
+import java.util.Map;
 
 
 public class Icons {
@@ -115,7 +112,9 @@ public class Icons {
      * Init only what's needed for error dialog etc
      */
     public static void initWindowIcon() {
-        WINDOW = loadImage(Paths.DATA_DIR_IMAGES + "window-icon-2.png");
+
+        final String imgPath = Paths.DATA_DIR_IMAGES;
+        WINDOW = loadImage(imgPath + "window-icon-2.png");
     }
 
 

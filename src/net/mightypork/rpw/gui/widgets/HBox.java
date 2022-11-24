@@ -1,12 +1,9 @@
 package net.mightypork.rpw.gui.widgets;
 
-import java.awt.Dimension;
-
-import javax.swing.BoxLayout;
-import javax.swing.JSeparator;
-import javax.swing.SwingConstants;
-
 import net.mightypork.rpw.gui.Gui;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 public class HBox extends RpwBox {

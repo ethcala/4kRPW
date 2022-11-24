@@ -1,12 +1,12 @@
 package net.mightypork.rpw.tasks;
 
-import java.io.File;
-import java.io.IOException;
-
 import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.files.OsUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.File;
+import java.io.IOException;
 
 
 public class TaskCreateModConfigFiles {

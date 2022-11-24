@@ -1,5 +1,9 @@
 package net.mightypork.rpw.utils.files;
 
+import net.mightypork.rpw.utils.Utils;
+import net.mightypork.rpw.utils.logging.Log;
+import net.mightypork.rpw.utils.validation.StringFilter;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -7,10 +11,6 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
-
-import net.mightypork.rpw.utils.Utils;
-import net.mightypork.rpw.utils.logging.Log;
-import net.mightypork.rpw.utils.validation.StringFilter;
 
 
 /**

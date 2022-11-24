@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
 Main-Class: net.mightypork.rpw.App
+Class-Path: ../lib/swingx-all-1.6.5.jar
 

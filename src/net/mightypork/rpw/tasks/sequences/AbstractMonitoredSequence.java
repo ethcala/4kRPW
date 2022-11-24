@@ -1,10 +1,10 @@
 package net.mightypork.rpw.tasks.sequences;
 
-import java.awt.Dialog.ModalityType;
-
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.gui.windows.messages.DialogProgressTerminal;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.awt.Dialog.ModalityType;
 
 
 public abstract class AbstractMonitoredSequence extends AbstractSequence {

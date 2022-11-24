@@ -1,12 +1,5 @@
 package net.mightypork.rpw.tree.assets.groups;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.utils.Utils;
@@ -14,6 +7,13 @@ import net.mightypork.rpw.utils.files.FileUtils;
 import net.mightypork.rpw.utils.files.OsUtils;
 import net.mightypork.rpw.utils.files.SimpleConfig;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 
 public class AssetGrouperFancy extends AssetGrouper {

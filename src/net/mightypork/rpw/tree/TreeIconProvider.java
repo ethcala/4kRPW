@@ -1,10 +1,9 @@
 package net.mightypork.rpw.tree;
 
-import javax.swing.Icon;
-
 import net.mightypork.rpw.gui.Icons;
-
 import org.jdesktop.swingx.renderer.IconValue;
+
+import javax.swing.*;
 
 
 public class TreeIconProvider implements IconValue {

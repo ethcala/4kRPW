@@ -1,14 +1,13 @@
 package net.mightypork.rpw.gui.helpers;
 
-import java.awt.Component;
-import java.io.File;
-
-import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileFilter;
-
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.Config.FilePath;
 import net.mightypork.rpw.utils.validation.FileSuffixFilter;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import java.awt.*;
+import java.io.File;
 
 
 /**

@@ -1,18 +1,14 @@
 package net.mightypork.rpw.gui.windows.messages;
 
-import java.util.logging.Level;
-
-import javax.swing.Box;
-import javax.swing.JButton;
-import javax.swing.JLabel;
-import javax.swing.JProgressBar;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.gui.Icons;
 import net.mightypork.rpw.gui.widgets.HBox;
 import net.mightypork.rpw.tasks.sequences.ProgressListener;
 import net.mightypork.rpw.utils.logging.Log;
 import net.mightypork.rpw.utils.logging.LogMonitor;
+
+import javax.swing.*;
+import java.util.logging.Level;
 
 
 public class DialogProgressTerminal extends DialogTerminalBase implements LogMonitor, ProgressListener {

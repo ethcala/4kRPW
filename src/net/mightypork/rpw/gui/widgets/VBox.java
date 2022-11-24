@@ -1,14 +1,9 @@
 package net.mightypork.rpw.gui.widgets;
 
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JSeparator;
-import javax.swing.SwingConstants;
-
 import net.mightypork.rpw.gui.Gui;
-
 import org.jdesktop.swingx.JXTitledSeparator;
+
+import javax.swing.*;
 
 
 public class VBox extends RpwBox {

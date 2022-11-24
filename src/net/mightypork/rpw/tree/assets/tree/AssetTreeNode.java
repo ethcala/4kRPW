@@ -1,14 +1,13 @@
 package net.mightypork.rpw.tree.assets.tree;
 
-import java.util.Enumeration;
-import java.util.List;
-
-import javax.swing.tree.TreeNode;
-
 import net.mightypork.rpw.library.MagicSources;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.tree.IFileTreeNode;
 import net.mightypork.rpw.utils.AlphanumComparator;
+
+import javax.swing.tree.TreeNode;
+import java.util.Enumeration;
+import java.util.List;
 
 
 public abstract class AssetTreeNode implements Comparable<AssetTreeNode>, TreeNode, IFileTreeNode {

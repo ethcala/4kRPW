@@ -1,14 +1,5 @@
 package net.mightypork.rpw.gui.windows.messages;
 
-import java.awt.Dimension;
-
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JSeparator;
-import javax.swing.SwingConstants;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Paths;
 import net.mightypork.rpw.gui.Gui;
@@ -17,6 +8,9 @@ import net.mightypork.rpw.gui.widgets.HBox;
 import net.mightypork.rpw.gui.widgets.VBox;
 import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.utils.HtmlBuilder;
+
+import javax.swing.*;
+import java.awt.*;
 
 
 public class DialogUpdateNotify extends RpwDialog {

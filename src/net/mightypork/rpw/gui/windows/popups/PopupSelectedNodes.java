@@ -1,22 +1,5 @@
 package net.mightypork.rpw.gui.windows.popups;
 
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Font;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.swing.BorderFactory;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPopupMenu;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.gui.Icons;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
@@ -25,16 +8,20 @@ import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.project.Projects;
 import net.mightypork.rpw.tasks.Tasks;
 import net.mightypork.rpw.tree.assets.EAsset;
-import net.mightypork.rpw.tree.assets.processors.ApplyInheritProcessor;
-import net.mightypork.rpw.tree.assets.processors.CopyToProjectProcessor;
-import net.mightypork.rpw.tree.assets.processors.CountNodesInProjectProcessor;
-import net.mightypork.rpw.tree.assets.processors.CountNodesOfTypeProcessor;
-import net.mightypork.rpw.tree.assets.processors.DeleteFromProjectProcessor;
-import net.mightypork.rpw.tree.assets.processors.SetToSourceProcessor;
+import net.mightypork.rpw.tree.assets.processors.*;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeLeaf;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeNode;
 import net.mightypork.rpw.tree.assets.tree.AssetTreeProcessor;
 import net.mightypork.rpw.utils.logging.Log;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class PopupSelectedNodes {

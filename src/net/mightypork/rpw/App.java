@@ -1,19 +1,13 @@
 package net.mightypork.rpw;
 
-import java.io.File;
-import java.io.RandomAccessFile;
-import java.nio.channels.FileLock;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import net.mightypork.rpw.gui.Gui;
 import net.mightypork.rpw.gui.Icons;
 import net.mightypork.rpw.gui.widgets.MenuMain;
 import net.mightypork.rpw.gui.widgets.SidePanel;
 import net.mightypork.rpw.gui.widgets.TreeDisplay;
-import net.mightypork.rpw.gui.windows.WindowSplash;
 import net.mightypork.rpw.gui.windows.RpwDialog;
 import net.mightypork.rpw.gui.windows.WindowMain;
+import net.mightypork.rpw.gui.windows.WindowSplash;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
 import net.mightypork.rpw.gui.windows.messages.DialogCrash;
 import net.mightypork.rpw.help.VersionUtils;
@@ -25,9 +19,13 @@ import net.mightypork.rpw.utils.HtmlBuilder;
 import net.mightypork.rpw.utils.Utils;
 import net.mightypork.rpw.utils.files.OsUtils;
 import net.mightypork.rpw.utils.logging.Log;
-
 import org.fife.ui.rsyntaxtextarea.RSyntaxTextArea;
 import org.jdesktop.swingx.JXFrame;
+//import org.jdesktop.swingx.JXFrame;
+
+import java.io.File;
+import java.io.RandomAccessFile;
+import java.nio.channels.FileLock;
 
 
 public class App {

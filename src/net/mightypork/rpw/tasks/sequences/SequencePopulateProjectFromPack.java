@@ -1,14 +1,5 @@
 package net.mightypork.rpw.tasks.sequences;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map.Entry;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
-
 import net.mightypork.rpw.App;
 import net.mightypork.rpw.Config;
 import net.mightypork.rpw.gui.windows.messages.Alerts;
@@ -16,18 +7,21 @@ import net.mightypork.rpw.library.MagicSources;
 import net.mightypork.rpw.library.Sources;
 import net.mightypork.rpw.project.Project;
 import net.mightypork.rpw.project.Projects;
-import net.mightypork.rpw.struct.LangEntry;
-import net.mightypork.rpw.struct.PackMcmeta;
-import net.mightypork.rpw.struct.SoundEntry;
-import net.mightypork.rpw.struct.SoundEntryMap;
-import net.mightypork.rpw.struct.SoundSubEntry;
+import net.mightypork.rpw.struct.*;
 import net.mightypork.rpw.tree.assets.AssetEntry;
 import net.mightypork.rpw.tree.assets.EAsset;
 import net.mightypork.rpw.utils.Utils;
 import net.mightypork.rpw.utils.files.FileUtils;
-import net.mightypork.rpw.utils.files.ZipBuilder;
 import net.mightypork.rpw.utils.files.ZipUtils;
 import net.mightypork.rpw.utils.logging.Log;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map.Entry;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipFile;
 
 
 /**
