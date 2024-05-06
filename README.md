@@ -2,6 +2,8 @@
 
 RPW is a tool for editing Minecraft resource packs.
 
+This is an updated version to support 4k monitors without GUI resizing issues.
+
 **Pull Requests are welcome!**
 
 Please read the built-in help before asking questions, and go through the RPW menus.
